@@ -1,2 +1,1 @@
 # fizzbuzz
-p "hey"
