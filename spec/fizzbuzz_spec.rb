@@ -16,4 +16,8 @@ describe 'fizzbuzz' do
     it 'returns "fizzbuzz" when passed 15' do
         expect(fizzbuzz(15)).to eq 'fizzbuzz'
     end
+    
+    it 'returns "error" when passed "String"' do
+        expect(fizzbuzz("String")).to eq "error"
+    end
 end
